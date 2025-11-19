@@ -1,0 +1,29 @@
+GET http://localhost:8000/patients
+
+###
+
+GET http://localhost:8000/patients/691c01bf777eae7938c0b784
+
+###
+
+POST http://localhost:8000/patients/
+Content-Type: application/json
+
+{
+   "name": "Joleyann Agustin omglololol",
+   "doctor": "Terry Biesboer, M.D."
+}
+
+###
+
+DELETE http://localhost:8000/patients/691d1092fbed5773aad0d920
+
+###
+
+PATCH http://localhost:8000/patients/691c01bf777eae7938c0b784
+Content-Type: application/json
+
+{
+   "name": "Joleybean Yoshi",
+   "doctor": "Terry Biesboer, M.D."
+}
